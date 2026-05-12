@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Kevin Ledwith</title>
+    <meta
+      name="description"
+      content="Project portfolio for Kevin Ledwith across web development and machine learning."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Kevin Ledwith</a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu"><span class="menu-icon" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="experience.html" data-page="experience.html">Experience</a>
+        <a href="projects.html" data-page="projects.html">Projects</a>
+        <!-- <a href="certifications.html" data-page="certifications.html">Certifications</a> -->
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Projects</p>
+        <h1>Applications spanning education, analytics, accessibility, and public awareness.</h1>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Featured Work</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Spellwiz - Spelling and Vocabulary Learning Platform</h3>
+            <p>
+              Co-developed a full-stack MVC platform for teachers and students, with dynamic
+              word lists, quizzes, dashboards, OCR-ready assets, and integrated TTS/STT.
+            </p>
+            <p><a href="https://portal.spellwiz.com/" target="_blank" rel="noopener noreferrer">View Live Site</a></p>
+            <p class="small">Stack: Django, PostgreSQL, REST APIs, Azure, Docker, CI/CD</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Promote Women - Research Networking Platform</h3>
+            <p>
+              Sole developer for a greenfield MVC platform connecting early-career female
+              researchers worldwide, including profiles, messaging, and role-based access.
+            </p>
+            <p><a href="https://promotewomen.ie/" target="_blank" rel="noopener noreferrer">View Live Site</a></p>
+            <p class="small">Stack: Django, Bootstrap, Cloud deployment, RBAC</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Fencing Tournament Maker</h3>
+            <p>
+              Built a web platform for organizing fencing events with poule generation,
+              bout flow, and tournament management features.
+            </p>
+            <p><a href="https://fencing-comp.onrender.com/" target="_blank" rel="noopener noreferrer">View Live Site</a></p>
+            <p class="small">Stack: Django, Tournament logic, Responsive UI</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Menu App</h3>
+            <p>
+              Built an application focused on menu management and user-friendly content
+              presentation, with practical features for real-world usage.
+            </p>
+            <p><a href="menu-app.html">View Project Status</a></p>
+            <p class="small">Stack: Web app development, UI/UX, Data-driven workflows</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Forewarn - Machine Learning Tool for Water Safety</h3>
+            <p>
+              Contributed to ML workflows for contaminant detection using preprocessing,
+              feature engineering, and model evaluation with practical research integration.
+            </p>
+            <p class="small">Stack: Python, Pandas, Scikit-learn, Django</p>
+          </article>
+
+          <article class="project-card">
+            <h3>BeBetSafe - Responsible Gambling Awareness Platform</h3>
+            <p>
+              Built a Django educational app with roulette and blackjack simulations,
+              probability-driven logic, and risk visualization over repeated play.
+            </p>
+            <p class="small">Stack: Django, JavaScript, Data visualization, UI/UX</p>
+          </article>
+
+          <article class="project-card">
+            <h3>BookScanner - Book Review and OCR Platform</h3>
+            <p>
+              Developed OCR-driven book identification with social features including friends,
+              messaging, and reviews, optimized for mobile and desktop.
+            </p>
+            <p class="small">Stack: Django, OCR, Bootstrap, REST APIs, Authentication</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kevin Ledwith</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

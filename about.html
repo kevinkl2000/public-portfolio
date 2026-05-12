@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Kevin Ledwith</title>
+    <meta
+      name="description"
+      content="About Kevin Ledwith, software developer with broad technical experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Kevin Ledwith</a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu"><span class="menu-icon" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="experience.html" data-page="experience.html">Experience</a>
+        <a href="projects.html" data-page="projects.html">Projects</a>
+        <!-- <a href="certifications.html" data-page="certifications.html">Certifications</a> -->
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <div class="hero-top">
+          <div class="hero-heading-block">
+            <p class="eyebrow">About Me</p>
+            <h1>Motivated software developer focused on growth, impact, and team delivery.</h1>
+          </div>
+          <div class="headshot-wrap">
+            <img
+              class="headshot-photo"
+              src="images/headshot.png"
+              alt="Headshot of Kevin Ledwith"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <p class="hero-copy">
+          I am an early-career developer with experience shipping production software and
+          collaborating across engineering and product-focused environments.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Profile</h2>
+        <p>
+          Skilled in building scalable web applications, APIs, and cloud deployments with a
+          strong foundation in software engineering principles. I am comfortable moving
+          across backend, frontend, data, and operational tasks based on team needs. I enjoy
+          learning quickly, adapting to new domains, and delivering reliable solutions.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Technical Skills</h2>
+        <h3>Programming Languages</h3>
+        <p>Python, Java, C, R, Haskell, SQL, HTML, CSS, JavaScript, TypeScript, SQF</p>
+
+        <h3>Frameworks and Libraries</h3>
+        <p>
+          Django (REST Framework), FastAPI, React, Bootstrap, DriverJS, Unity, NumPy,
+          Pandas, Matplotlib, Seaborn, Scikit-learn, OpenCV, NLTK, PyTorch, TensorFlow,
+          Pytest, Pillow, gTTS, SpeechRecognition, BeautifulSoup, Selenium
+        </p>
+
+        <h3>Databases</h3>
+        <p>
+          PostgreSQL, MySQL, SQLite, plus ORM-based schema design with migrations, data
+          integrity checks, and relational model optimization.
+        </p>
+
+        <h3>Cloud and DevOps</h3>
+        <p>
+          Azure (including Data Factory, Function Apps, Logic Apps, and Storage Accounts),
+          AWS (EC2 and S3), Render, Docker, GitHub CI/CD, Nginx, Gunicorn, Linux server
+          administration, automated backups, TLS and DNS setup.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Professional Summary</h2>
+        <p>
+          I am actively seeking opportunities to continue developing as a software engineer.
+          My goal is to contribute to strong teams, build useful products, and grow across
+          different technologies and business domains. I bring a practical mindset,
+          ownership of delivery, and a commitment to writing maintainable software.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Interests</h2>
+        <ul class="list">
+          <li>Arduino and electronics prototyping, with a focus on practical experimentation.</li>
+          <li>Fencing, which has strengthened discipline, focus, and competitive mindset.</li>
+          <li>3D modeling and printing, with some of my designs and prints currently used in HSE environments.</li>
+          <li>Woodworking, reflecting attention to detail and craftsmanship.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kevin Ledwith</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

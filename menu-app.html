@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu App | Kevin Ledwith</title>
+    <meta
+      name="description"
+      content="Status page for Kevin Ledwith's Menu App project."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Kevin Ledwith</a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu"><span class="menu-icon" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="experience.html" data-page="experience.html">Experience</a>
+        <a href="projects.html" data-page="projects.html">Projects</a>
+        <!-- <a href="certifications.html" data-page="certifications.html">Certifications</a> -->
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Project Status</p>
+        <h1>Menu App is in progress for public hosting.</h1>
+        <p class="hero-copy">
+          The application is built and ready. Public hosting is being finalized, and a live
+          link will be added here soon.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Current Status</h2>
+        <p><strong>Stage:</strong> Complete and awaiting public deployment</p>
+        <p><strong>Next step:</strong> Host and publish production URL</p>
+        <p><a href="projects.html">Back to Projects</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kevin Ledwith</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

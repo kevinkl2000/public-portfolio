@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Ledwith | Portfolio</title>
+    <meta
+      name="description"
+      content="Kevin Ledwith portfolio showcasing software projects, experience, and practical engineering skills."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Kevin Ledwith</a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu"><span class="menu-icon" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="experience.html" data-page="experience.html">Experience</a>
+        <a href="projects.html" data-page="projects.html">Projects</a>
+        <!-- <a href="certifications.html" data-page="certifications.html">Certifications</a> -->
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <div class="hero-top">
+          <div class="hero-heading-block">
+            <p class="eyebrow">Software Developer</p>
+            <h1>Adaptable developer open to a wide range of software opportunities.</h1>
+          </div>
+          <div class="headshot-wrap">
+            <img
+              class="headshot-photo"
+              src="images/headshot.png"
+              alt="Headshot of Kevin Ledwith"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <p class="hero-copy">
+          I am Kevin Ledwith, a developer based in Louth, Ireland, with hands-on experience
+          across web applications, backend systems, cloud deployment, and practical
+          problem-solving in team environments.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="projects.html">Explore Projects</a>
+          <a class="btn btn-secondary" href="contact.html">Contact Me</a>
+        </div>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Quick Snapshot</h2>
+        <div class="stat-grid">
+          <article class="stat">
+            <h3>Current Role</h3>
+            <p>Software Developer at Insight Centre for Data Analytics (March 2024 - Present)</p>
+          </article>
+          <article class="stat">
+            <h3>Education</h3>
+            <p>BSc Computer Applications and Software Engineering, Dublin City University</p>
+          </article>
+          <article class="stat">
+            <h3>Technical Breadth</h3>
+            <p>Frontend and backend development, APIs, databases, cloud deployment, and testing</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Portfolio Sections</h2>
+        <div class="section-grid">
+          <a class="project-card" href="about.html">
+            <h3>About Me</h3>
+            <p>Profile, transferable strengths, and technical skills across multiple domains.</p>
+          </a>
+          <a class="project-card" href="experience.html">
+            <h3>Experience</h3>
+            <p>Professional roles, achievements, and education background.</p>
+          </a>
+          <a class="project-card" href="projects.html">
+            <h3>Projects</h3>
+            <p>Project case studies showing practical delivery across different software areas.</p>
+          </a>
+          <!--
+          <a class="project-card" href="certifications.html">
+            <h3>Certifications and Extras</h3>
+            <p>Professional development, core competencies, languages, and additional info.</p>
+          </a>
+          -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kevin Ledwith</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
